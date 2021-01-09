@@ -44,6 +44,7 @@ function App() {
   
   return (
     <div className={`App ${libraryStatus ? 'library-active' : ''}`}>
+      <a href="/sp.html">Second Page</a>
       <Nav libraryStatus = {libraryStatus} setLibraryStatus = {setLibraryStatus}/>
       <Song currentSong = {currentSong}/>
       <Player setSongs = {setSongs} setCurrentSong = {setCurrentSong} songs = {songs} setSongInfo = {setSongInfo} songInfo = {songInfo} audioRef = {audioRef} setIsPlaying = {setIsPlaying} isPlaying = {isPlaying} currentSong = {currentSong} />
