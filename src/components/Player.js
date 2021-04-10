@@ -1,4 +1,4 @@
-import React , {useEffect} from 'react';
+import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faPlay , faAngleLeft , faAngleRight , faPause } from '@fortawesome/free-solid-svg-icons'
 import {playAudio} from '../util';
